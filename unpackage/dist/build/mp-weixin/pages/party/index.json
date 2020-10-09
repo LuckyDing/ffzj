@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "我的饭局",
-  "usingComponents": {
-    "ms-tabs": "/components/ms-tabs/ms-tabs",
-    "uni-load-more": "/components/uni-load-more/uni-load-more"
-  }
-}

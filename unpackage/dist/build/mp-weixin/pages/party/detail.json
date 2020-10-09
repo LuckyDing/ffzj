@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "饭局详情",
-  "usingComponents": {
-    "uni-popup": "/components/uni-popup/uni-popup",
-    "my-panel": "/components/my-panel",
-    "my-cell": "/components/my-cell"
-  }
-}
