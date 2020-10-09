@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.red.data-v-a38c964a {
+  color: #EC808D !important;
+}
+.grey.data-v-a38c964a {
+  color: #aaaaaa !important;
+}
+.orange.data-v-a38c964a {
+  color: #F59A23 !important;
+}
+.green.data-v-a38c964a {
+  color: #32B295 !important;
+}
+/**
+ * mixin 通用方法
+ */
+button.data-v-a38c964a, uni-button.data-v-a38c964a {
+  font-size: 28rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  border-radius: 8rpx;
+}
+uni-checkbox .uni-checkbox-input.data-v-a38c964a {
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+uni-checkbox:not([disabled]) .uni-checkbox-input.data-v-a38c964a:hover {
+  border-color: initial;
+}
+uni-checkbox .uni-checkbox-input .uni-checkbox-input-checked.data-v-a38c964a {
+  border-color: #32B295;
+}
+uni-page-head .uni-page-head__title.data-v-a38c964a {
+  font-weight: normal;
+}
+.form.data-v-a38c964a {
+  background-color: #fff;
+}
+.form .uni-form-item.data-v-a38c964a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 28rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: relative;
+}
+.form .uni-form-item .uni-input.data-v-a38c964a {
+  text-align: right;
+  font-size: 28rpx;
+}
+.form .uni-form-item.data-v-a38c964a:after {
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  content: " ";
+  pointer-events: none;
+  left: 0;
+  bottom: 0;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+}
+.flex-center.data-v-a38c964a, .flex-center-between.data-v-a38c964a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.flex-center-between.data-v-a38c964a {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.no-data.data-v-a38c964a {
+  text-align: center;
+  color: #808080;
+  margin-top: 30%;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.scan-error-content.data-v-a38c964a {
+  padding-top: 200rpx;
+  text-align: center;
+  color: #999;
+}
+.scan-error-content image.data-v-a38c964a {
+  width: 150rpx;
+  height: 150rpx;
+  margin-bottom: 28rpx;
+  margin-left: 20rpx;
+}
+.btn.data-v-a38c964a {
+  margin-top: 150rpx;
+  padding: 48rpx;
+}
+.btn .confirm-btn.data-v-a38c964a {
+  background-color: #32B295;
+  color: #fff;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "饭局编辑",
+  "usingComponents": {
+    "e-picker-plus": "/components/e-picker-plus/e-picker-plus"
+  }
+}

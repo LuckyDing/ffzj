@@ -1,0 +1,13 @@
+{
+  "name": "msxx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "dy",
+  "license": "ISC",
+  "dependencies": {
+    "vconsole": "^3.3.4"
+  }
+}
